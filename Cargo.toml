@@ -1,0 +1,20 @@
+[package]
+name = "container-in-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+capctl = "0.2"
+cgroups-rs = "0.2"
+clap = { version = "4.0", features = ["derive"] }
+env_logger = "0.10"
+libc = "0.2"
+log = "0.4"
+nix = "0.26"
+rand = "0.8"
+rlimit = "0.8"
+scan_fmt = "0.2"
+syscallz = "0.16"
